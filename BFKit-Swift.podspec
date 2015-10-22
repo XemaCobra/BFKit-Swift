@@ -11,7 +11,10 @@ Pod::Spec.new do |s|
                        }
   s.author           = { "Fabrizio Brancati" => "fabrizio.brancati@gmail.com" }
   s.social_media_url = "https://twitter.com/infinity4all"
-  s.platform         = :ios, "8.0"
+  s.platform         = {
+                          :ios, "8.0"
+                          :tvos, "9.0"
+                        }
   s.source           = {
                           :git => "https://github.com/FabrizioBrancati/BFKit-Swift.git",
                           :tag => "v1.4.1"
